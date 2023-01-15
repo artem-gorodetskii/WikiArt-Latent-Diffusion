@@ -7,6 +7,27 @@ Conditional denoising diffusion probabilistic model trained in latent space to g
     <em>Fig. 1. The animation of the latent diffusion process.</em>
 </p>
 
+### Generalization to Different Sizes
+The model is able to generale to different sizes. See examples below.
+
+<p align="center">
+  <img alt="img-name" src="assets/ivan-aivazovsky_01.jpg" width="500">
+  <br>
+    <em>Fig. 2. Generated painting in the style of Ivan Aivazovsky.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/ivan-aivazovsky_02.jpg" width="500">
+  <br>
+    <em>Fig. 3. Generated painting in the style of Ivan Aivazovsky.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/ivan-aivazovsky_03.png" width="500">
+  <br>
+    <em>Fig. 4. Generated painting in the style of Ivan Aivazovsky.</em>
+</p>
+
 ### Repository structure:
 - **[config.py](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/master/config.py)** is a file with model hyperparameters.
 - **[dataset.py](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/master/dataset.py)** contains dataset class.
