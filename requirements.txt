@@ -1,0 +1,11 @@
+torch==1.13.1+cu116
+numpy==1.24.0
+diffusers==0.11.1
+datasets==2.8.0
+transformers==4.25.1
+tqdm==4.62.3
+accelerate==0.15.0
+ftfy==6.1.1
+pyarrow==10.0.1
+Pillow==9.3.0
+scikit-image==0.19.3
