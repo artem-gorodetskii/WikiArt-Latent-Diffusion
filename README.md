@@ -8,7 +8,7 @@ Conditional denoising diffusion probabilistic model trained in latent space to g
 </p>
 
 ### Generalization to Different Sizes
-The model is able to generale to different sizes. See examples below.
+The model is able to generale to different image sizes. See generated examples below.
 
 <p align="center">
   <img alt="img-name" src="assets/ivan-aivazovsky_01.jpg" width="400">
@@ -61,4 +61,7 @@ The model is able to generale to different sizes. See examples below.
 - **[train.py](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/master/train.py)** performs training of the LatentUNet model using a single GPU instance.
 - **[evaluate.py](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/master/evaluate.py)** performs evaluation of trained pipeline.
 - the notebook **[inference_example](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/master/inference_example.ipynb)** includes inference examples of the developed pieline.
+
+### Dataset
+We used the [WikiArt](https://huggingface.co/datasets/huggan/wikiart) dataset containing 81444 pieces of visual art from various artists. All images were cropped and resized to 512x512 resolution. To convert images into latent representation we apply the pretrained [VQ-VAE](https://arxiv.org/abs/1711.00937) from the [Stable Diffusion model](https://arxiv.org/abs/2112.10752) implemented by [StabilityAI](https://stability.ai/).
 
