@@ -2,7 +2,7 @@
 Conditional denoising diffusion probabilistic model trained in latent space to generate paintings by famous artists. See the animation of the latent diffusion process in the figure below.
 
 <p align="center">
-  <img alt="img-name" src="assets/inference_gif.gif" width="500">
+  <img alt="img-name" src="assets/inference_gif.gif" width="400">
   <br>
     <em>Fig. 1. The animation of the latent diffusion process.</em>
 </p>
@@ -11,21 +11,45 @@ Conditional denoising diffusion probabilistic model trained in latent space to g
 The model is able to generale to different sizes. See examples below.
 
 <p align="center">
-  <img alt="img-name" src="assets/ivan-aivazovsky_01.jpg" width="500">
+  <img alt="img-name" src="assets/ivan-aivazovsky_01.jpg" width="400">
   <br>
     <em>Fig. 2. Generated painting in the style of Ivan Aivazovsky.</em>
 </p>
 
 <p align="center">
-  <img alt="img-name" src="assets/ivan-aivazovsky_02.jpg" width="500">
+  <img alt="img-name" src="assets/ivan-aivazovsky_02.jpg" width="400">
   <br>
     <em>Fig. 3. Generated painting in the style of Ivan Aivazovsky.</em>
 </p>
 
 <p align="center">
-  <img alt="img-name" src="assets/ivan-aivazovsky_03.png" width="500">
+  <img alt="img-name" src="assets/ivan-aivazovsky_03.png" width="400">
   <br>
     <em>Fig. 4. Generated painting in the style of Ivan Aivazovsky.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/martiros-saryan_01.png" width="400">
+  <br>
+    <em>Fig. 5. Generated painting in the style of Martiros Saryan.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/camille-pissarro_01.jpg" width="1000">
+  <br>
+    <em>Fig. 6. Generated painting in the style of Camille Pissarro.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/pyotr-konchalovsky_01.jpg" width="1000">
+  <br>
+    <em>Fig. 7. Generated painting in the style of Pyotr Konchalovsky.</em>
+</p>
+
+<p align="center">
+  <img alt="img-name" src="assets/pierre-auguste-renoir_04.jpg" width="400">
+  <br>
+    <em>Fig. 8. Generated painting in the style of Pierre Auguste Renoir.</em>
 </p>
 
 ### Repository structure:
