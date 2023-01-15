@@ -8,7 +8,7 @@ Conditional denoising diffusion probabilistic model trained in latent space to g
 </p>
 
 ### Generalization to Different Sizes
-The model is able to generale to different image sizes. See generated examples below.
+The model is able to generalize to different image sizes. See generated examples below.
 
 <p align="center">
   <img alt="img-name" src="assets/ivan-aivazovsky_01.jpg" width="400">
