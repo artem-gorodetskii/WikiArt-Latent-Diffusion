@@ -65,3 +65,8 @@ The model is able to generale to different image sizes. See generated examples b
 ### Dataset
 We used the [WikiArt](https://huggingface.co/datasets/huggan/wikiart) dataset containing 81444 pieces of visual art from various artists. All images were cropped and resized to 512x512 resolution. To convert images into latent representation we apply the pretrained [VQ-VAE](https://arxiv.org/abs/1711.00937) from the [Stable Diffusion model](https://arxiv.org/abs/2112.10752) implemented by [StabilityAI](https://stability.ai/).
 
+### Diffusion Model
+We adapted 2D UNet model from Hugging Face [diffusers package](https://github.com/huggingface/diffusers) by adding three additional embedding layers to control paining style, including artist name, genre name and style name. Before adding the style embedding to time embedding, we pass each type of style embedding through [PreNet](https://github.com/artem-gorodetskii/WikiArt-Latent-Diffusion/blob/5d37b3cc886aec9cfb077e4cb04cd3e7afaa536f/model.py#L14) modules. 
+
+The network is trained to predict the unscaled noise component using Huber loss function (it produces better results on this dataset compared to L2 loss). During evaluation, the generated latent representations are decoded into images using the pretrained [VQ-VAE](https://arxiv.org/abs/1711.00937).
+
